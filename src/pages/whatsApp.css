@@ -1,0 +1,50 @@
+
+.label{
+
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.inputTab{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    background-image: linear-gradient(to bottom, #082654, #231a3b, #221124, #190913, #000000); 
+    background-position: center;
+    color: white;
+  }
+
+   input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input{
+    border-radius: 5px;
+    padding: 15px 5px;
+    outline: none;
+    width: 300px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.color{
+    background-color: #257ec2;
+    height: 0px;
+    width: 150px;
+ }
+
+ .color:hover{
+    background-color: #f9c232;
+ }
+
+ .logo1{
+    width: 120px;
+    margin-bottom: 50px;
+ }
